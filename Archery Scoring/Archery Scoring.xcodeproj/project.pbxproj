@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600C3083213580FC0092D455 /* RangeScoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C3082213580FC0092D455 /* RangeScoreTableViewController.swift */; };
+		600C30852139497F0092D455 /* TargetScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C30842139497F0092D455 /* TargetScore.swift */; };
+		60CE861E2135389D00B85837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE861D2135389D00B85837 /* AppDelegate.swift */; };
+		60CE86202135389D00B85837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE861F2135389D00B85837 /* ViewController.swift */; };
+		60CE86232135389D00B85837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CE86212135389D00B85837 /* Main.storyboard */; };
+		60CE86252135389D00B85837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CE86242135389D00B85837 /* Assets.xcassets */; };
+		60CE86282135389D00B85837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CE86262135389D00B85837 /* LaunchScreen.storyboard */; };
+		60CE86332135389D00B85837 /* Archery_ScoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE86322135389D00B85837 /* Archery_ScoringTests.swift */; };
+		60CE863E21353BBC00B85837 /* TargetScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE863D21353BBC00B85837 /* TargetScoreTableViewCell.swift */; };
+		60CE8640213540FB00B85837 /* ScoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE863F213540FB00B85837 /* ScoreData.swift */; };
+		60CE86422135413F00B85837 /* ScoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE86412135413F00B85837 /* ScoreDataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60CE862F2135389D00B85837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CE86122135389C00B85837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60CE86192135389D00B85837;
+			remoteInfo = "Archery Scoring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		600C3082213580FC0092D455 /* RangeScoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeScoreTableViewController.swift; sourceTree = "<group>"; };
+		600C30842139497F0092D455 /* TargetScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetScore.swift; sourceTree = "<group>"; };
+		60CE861A2135389D00B85837 /* Archery Scoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Archery Scoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CE861D2135389D00B85837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60CE861F2135389D00B85837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60CE86222135389D00B85837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60CE86242135389D00B85837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60CE86272135389D00B85837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60CE86292135389D00B85837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CE862E2135389D00B85837 /* Archery ScoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Archery ScoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CE86322135389D00B85837 /* Archery_ScoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archery_ScoringTests.swift; sourceTree = "<group>"; };
+		60CE86342135389D00B85837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CE863D21353BBC00B85837 /* TargetScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetScoreTableViewCell.swift; sourceTree = "<group>"; };
+		60CE863F213540FB00B85837 /* ScoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreData.swift; sourceTree = "<group>"; };
+		60CE86412135413F00B85837 /* ScoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CE86172135389D00B85837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CE862B2135389D00B85837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60CE86112135389C00B85837 = {
+			isa = PBXGroup;
+			children = (
+				60CE861C2135389D00B85837 /* Archery Scoring */,
+				60CE86312135389D00B85837 /* Archery ScoringTests */,
+				60CE861B2135389D00B85837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60CE861B2135389D00B85837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CE861A2135389D00B85837 /* Archery Scoring.app */,
+				60CE862E2135389D00B85837 /* Archery ScoringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CE861C2135389D00B85837 /* Archery Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				60CE861D2135389D00B85837 /* AppDelegate.swift */,
+				60CE861F2135389D00B85837 /* ViewController.swift */,
+				600C3082213580FC0092D455 /* RangeScoreTableViewController.swift */,
+				60CE863D21353BBC00B85837 /* TargetScoreTableViewCell.swift */,
+				60CE86412135413F00B85837 /* ScoreDataController.swift */,
+				600C30842139497F0092D455 /* TargetScore.swift */,
+				60CE863F213540FB00B85837 /* ScoreData.swift */,
+				60CE86212135389D00B85837 /* Main.storyboard */,
+				60CE86242135389D00B85837 /* Assets.xcassets */,
+				60CE86262135389D00B85837 /* LaunchScreen.storyboard */,
+				60CE86292135389D00B85837 /* Info.plist */,
+			);
+			path = "Archery Scoring";
+			sourceTree = "<group>";
+		};
+		60CE86312135389D00B85837 /* Archery ScoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				60CE86322135389D00B85837 /* Archery_ScoringTests.swift */,
+				60CE86342135389D00B85837 /* Info.plist */,
+			);
+			path = "Archery ScoringTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60CE86192135389D00B85837 /* Archery Scoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CE86372135389D00B85837 /* Build configuration list for PBXNativeTarget "Archery Scoring" */;
+			buildPhases = (
+				60CE86162135389D00B85837 /* Sources */,
+				60CE86172135389D00B85837 /* Frameworks */,
+				60CE86182135389D00B85837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Archery Scoring";
+			productName = "Archery Scoring";
+			productReference = 60CE861A2135389D00B85837 /* Archery Scoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60CE862D2135389D00B85837 /* Archery ScoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CE863A2135389D00B85837 /* Build configuration list for PBXNativeTarget "Archery ScoringTests" */;
+			buildPhases = (
+				60CE862A2135389D00B85837 /* Sources */,
+				60CE862B2135389D00B85837 /* Frameworks */,
+				60CE862C2135389D00B85837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60CE86302135389D00B85837 /* PBXTargetDependency */,
+			);
+			name = "Archery ScoringTests";
+			productName = "Archery ScoringTests";
+			productReference = 60CE862E2135389D00B85837 /* Archery ScoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CE86122135389C00B85837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Prinsisse;
+				TargetAttributes = {
+					60CE86192135389D00B85837 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					60CE862D2135389D00B85837 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60CE86192135389D00B85837;
+					};
+				};
+			};
+			buildConfigurationList = 60CE86152135389C00B85837 /* Build configuration list for PBXProject "Archery Scoring" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60CE86112135389C00B85837;
+			productRefGroup = 60CE861B2135389D00B85837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60CE86192135389D00B85837 /* Archery Scoring */,
+				60CE862D2135389D00B85837 /* Archery ScoringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60CE86182135389D00B85837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CE86282135389D00B85837 /* LaunchScreen.storyboard in Resources */,
+				60CE86252135389D00B85837 /* Assets.xcassets in Resources */,
+				60CE86232135389D00B85837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CE862C2135389D00B85837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60CE86162135389D00B85837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CE86202135389D00B85837 /* ViewController.swift in Sources */,
+				60CE863E21353BBC00B85837 /* TargetScoreTableViewCell.swift in Sources */,
+				600C30852139497F0092D455 /* TargetScore.swift in Sources */,
+				600C3083213580FC0092D455 /* RangeScoreTableViewController.swift in Sources */,
+				60CE86422135413F00B85837 /* ScoreDataController.swift in Sources */,
+				60CE861E2135389D00B85837 /* AppDelegate.swift in Sources */,
+				60CE8640213540FB00B85837 /* ScoreData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CE862A2135389D00B85837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CE86332135389D00B85837 /* Archery_ScoringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60CE86302135389D00B85837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60CE86192135389D00B85837 /* Archery Scoring */;
+			targetProxy = 60CE862F2135389D00B85837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60CE86212135389D00B85837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CE86222135389D00B85837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60CE86262135389D00B85837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CE86272135389D00B85837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60CE86352135389D00B85837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60CE86362135389D00B85837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60CE86382135389D00B85837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Archery Scoring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prinsisse.Archery-Scoring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60CE86392135389D00B85837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Archery Scoring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prinsisse.Archery-Scoring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60CE863B2135389D00B85837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Archery ScoringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prinsisse.Archery-ScoringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Archery Scoring.app/Archery Scoring";
+			};
+			name = Debug;
+		};
+		60CE863C2135389D00B85837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Archery ScoringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prinsisse.Archery-ScoringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Archery Scoring.app/Archery Scoring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60CE86152135389C00B85837 /* Build configuration list for PBXProject "Archery Scoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CE86352135389D00B85837 /* Debug */,
+				60CE86362135389D00B85837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CE86372135389D00B85837 /* Build configuration list for PBXNativeTarget "Archery Scoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CE86382135389D00B85837 /* Debug */,
+				60CE86392135389D00B85837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CE863A2135389D00B85837 /* Build configuration list for PBXNativeTarget "Archery ScoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CE863B2135389D00B85837 /* Debug */,
+				60CE863C2135389D00B85837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60CE86122135389C00B85837 /* Project object */;
+}
